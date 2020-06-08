@@ -24,36 +24,34 @@
         @include('bok.partials.header-files')
     </head>
 
-<body>
+    <body>
 
-<!-- Top Bar Start -->
-<div class="topbar">
-    @include('bok.partials.nav')
-</div>
+    <!-- Top Bar Start -->
+    <div class="topbar">
+        @include('bok.partials.nav')
+    </div>
 
-@include('bok.partials.topbar')
+    @include('bok.partials.topbar')
 
-<div class="page-wrapper">
-    <div class="page-wrapper-inner">
+    <div class="page-wrapper">
+        <div class="page-wrapper-inner">
 
         @include('bok.partials.left-sidenav')
 
-
-
         <!-- Page Content-->
-        <div class="page-content">
-            <div class="container-fluid">
-                @yield('content')
+            <div class="page-content">
+                <div class="container-fluid">
+                    @yield('content')
 
-            </div><!-- container -->
+                </div><!-- container -->
 
-            @include('bok.partials.footer')
+                @include('bok.partials.footer')
+            </div>
+            <!-- end page content -->
         </div>
-        <!-- end page content -->
     </div>
-</div>
-<!-- end page-wrapper -->
+    <!-- end page-wrapper -->
 
-@include('bok.partials.js-footer-files')
-</body>
-</html>
+    @include('bok.partials.js-footer-files')
+    </body>
+    </html>
