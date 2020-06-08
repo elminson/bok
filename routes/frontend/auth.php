@@ -3,6 +3,7 @@
 use App\Http\Controllers\Frontend\Auth\ConfirmAccountController;
 use App\Http\Controllers\Frontend\Auth\ForgotPasswordController;
 use App\Http\Controllers\Frontend\Auth\LoginController;
+use App\Http\Controllers\Frontend\Auth\SettingsController;
 use App\Http\Controllers\Frontend\Auth\PasswordExpiredController;
 use App\Http\Controllers\Frontend\Auth\RegisterController;
 use App\Http\Controllers\Frontend\Auth\ResetPasswordController;
@@ -27,7 +28,11 @@ Route::group(['namespace' => 'Auth', 'as' => 'auth.'], function () {
         // Password expired routes
         Route::get('password/expired', [PasswordExpiredController::class, 'expired'])->name('password.expired');
         Route::patch('password/expired', [PasswordExpiredController::class, 'update'])->name('password.expired.update');
-    });
+
+		// Settings Routes
+		Route::get('settings', [SettingsController::class, 'index'])->name('settings');
+
+	});
 
     // These routes require no user to be logged in
     Route::group(['middleware' => 'guest'], function () {
