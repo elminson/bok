@@ -4,6 +4,8 @@ use App\Http\Controllers\Frontend\Auth\ConfirmAccountController;
 use App\Http\Controllers\Frontend\Auth\ForgotPasswordController;
 use App\Http\Controllers\Frontend\Auth\LoginController;
 use App\Http\Controllers\Frontend\Auth\SettingsController;
+use App\Http\Controllers\Frontend\Auth\MailController;
+use App\Http\Controllers\Frontend\Auth\AccountController;
 use App\Http\Controllers\Frontend\Auth\PasswordExpiredController;
 use App\Http\Controllers\Frontend\Auth\RegisterController;
 use App\Http\Controllers\Frontend\Auth\ResetPasswordController;
@@ -31,6 +33,12 @@ Route::group(['namespace' => 'Auth', 'as' => 'auth.'], function () {
 
 		// Settings Routes
 		Route::get('settings', [SettingsController::class, 'index'])->name('settings');
+
+		// Mail Routes
+		Route::get('mail', [MailController::class, 'index'])->name('mail');
+
+		// Account Routes
+		Route::get('accounts', [AccountController::class, 'index'])->name('accounts');
 
 	});
 

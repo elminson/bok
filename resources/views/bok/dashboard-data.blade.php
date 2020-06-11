@@ -26,8 +26,8 @@
                                     <p class="font-12 text-muted"><i class="fas fa-globe mr-2"></i>USA Dealer</p>
                                     <p class="mb-0 text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin.</p>
                                     <div class="mt-2 align-item-center">
-                                        <h5 class="font-20 d-inline-block mb-0 mr-3 align-self-center">$34800.00</h5>
-                                        <a class="btn btn-sm btn-primary text-light mb-2"><i class="mdi mdi-email-outline mr-1"></i>Message</a>
+                                        <h5 class="font-20 d-inline-block mb-0 mr-3 align-self-center">$34,800.00</h5>
+                                        <a class="btn btn-sm btn-primary text-light mb-2"><i class="mdi mdi-email-outline mr-1"></i>Email this</a>
                                     </div>
                                 </div>
                             </div>
@@ -38,8 +38,8 @@
                                     <p class="font-12 text-muted"><i class="fas fa-globe mr-2"></i>Russia Dealer</p>
                                     <p class="mb-0 text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin.</p>
                                     <div class="mt-2 align-item-center">
-                                        <h5 class="font-20 d-inline-block mb-0 mr-3 align-self-center">$31200.00</h5>
-                                        <a class="btn btn-sm btn-primary text-light mb-2"><i class="mdi mdi-email-outline mr-1"></i>Message</a>
+                                        <h5 class="font-20 d-inline-block mb-0 mr-3 align-self-center">$31,200.00</h5>
+                                        <a class="btn btn-sm btn-primary text-light mb-2"><i class="mdi mdi-email-outline mr-1"></i>Email this</a>
                                     </div>
                                 </div>
                             </div>
@@ -50,8 +50,8 @@
                                     <p class="font-12 text-muted"><i class="fas fa-globe mr-2"></i>Spain Dealer</p>
                                     <p class="mb-0 text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin.</p>
                                     <div class="mt-2 align-item-center">
-                                        <h5 class="font-20 d-inline-block mb-0 mr-3 align-self-center">$29200.00</h5>
-                                        <a class="btn btn-sm btn-primary text-light mb-2"><i class="mdi mdi-email-outline mr-1"></i>Message</a>
+                                        <h5 class="font-20 d-inline-block mb-0 mr-3 align-self-center">$29,200.00</h5>
+                                        <a class="btn btn-sm btn-primary text-light mb-2"><i class="mdi mdi-email-outline mr-1"></i>Email this</a>
                                     </div>
                                 </div>
                             </div>
@@ -76,8 +76,8 @@
                         <div class="card-icon">
                             <i class="far fa-smile"></i>
                         </div>
-                        <h2 class="font-weight-bold text-white">58</h2>
-                        <p class="text-white mb-0 font-16">Stores Very Good Review</p>
+                        <h2 class="font-weight-bold text-white">810</h2>
+                        <p class="text-white mb-0 font-16">FICO Score</p>
                     </div>
                 </div><!--end card-body-->
                 <div class="card-body dash-info-carousel">
@@ -170,7 +170,7 @@
                         <div class="card-icon">
                             <i class="fas fa-coins"></i>
                         </div>
-                        <h2 class="font-weight-bold text-white">$85750.00</h2>
+                        <h2 class="font-weight-bold text-white">$85,750.00</h2>
                         <p class="text-white mb-0 font-16">Total Balance</p>
                     </div>
                 </div><!--end card-body-->
@@ -191,7 +191,7 @@
                     <div class="row">
                         <div class="col-8 align-self-center">
                             <div class="">
-                                <h4 class="mt-0 header-title">Total Sales</h4>
+                                <h4 class="mt-0 header-title">Total Investment</h4>
                                 <h2 class="mt-0 font-weight-bold text-dark">40k</h2>
                                 <p class="mb-0 text-muted"><span class="text-success"><i class="mdi mdi-arrow-up"></i>14.5%</span> Up From Last Week</p>
                             </div>
@@ -221,8 +221,8 @@
                     <div class="row">
                         <div class="col-8 align-self-center">
                             <div class="">
-                                <h4 class="mt-0 header-title">Total Revenue</h4>
-                                <h2 class="mt-0 font-weight-bold text-dark">$9090</h2>
+                                <h4 class="mt-0 header-title">Last Deposit</h4>
+                                <h2 class="mt-0 font-weight-bold text-dark">$9,090</h2>
                                 <p class="mb-0 text-muted"><span class="text-success"><i class="mdi mdi-arrow-up"></i>14.5%</span> Up from yesterday</p>
                             </div>
                         </div><!--end col-->
@@ -253,12 +253,12 @@
                                 <div class="row">
                                     <div class="col-12 align-self-center">
                                         <div class="text-center">
-                                            <h4 class="mt-0 header-title text-left">Average Product Price</h4>
+                                            <h4 class="mt-0 header-title text-left">Average Transaction Amount</h4>
                                             <div class="icon-info my-3">
                                                 <i class="dripicons-jewel bg-soft-pink"></i>
                                             </div>
-                                            <h2 class="mt-0 font-weight-bold text-dark">$1280.00</h2>
-                                            <p class="mb-1 text-muted"><span class="text-success"><i class="mdi mdi-arrow-up"></i>35.5%</span> Last 100 Subscriptions</p>
+                                            <h2 class="mt-0 font-weight-bold text-dark">$1,280.00</h2>
+                                            <p class="mb-1 text-muted"><span class="text-success"><i class="mdi mdi-arrow-up"></i>35.5%</span> Last 100 Transaction</p>
                                         </div>
                                     </div><!--end col-->
                                 </div><!--end row-->
@@ -343,7 +343,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body new-user order-list">
-                    <h4 class="header-title mt-0 mb-3">Order List</h4>
+                    <h4 class="header-title mt-0 mb-3">Last transactions</h4>
                     <div class="table-responsive">
                         <table class="table table-hover mb-0">
                             <thead class="thead-light">
@@ -371,7 +371,7 @@
                                 <td>200</td>
                                 <td> $750</td>
                                 <td>
-                                    <span class="badge badge-boxed  badge-soft-success">Shipped</span>
+                                    <span class="badge badge-boxed  badge-soft-success">Paid</span>
                                 </td>
                             </tr><!--end tr-->
                             <tr>
@@ -387,7 +387,7 @@
                                 <td>180</td>
                                 <td> $970</td>
                                 <td>
-                                    <span class="badge badge-boxed  badge-soft-danger">Delivered</span>
+                                    <span class="badge badge-boxed  badge-soft-danger">Pending</span>
                                 </td>
                             </tr><!--end tr-->
                             <tr>
@@ -403,7 +403,7 @@
                                 <td>30</td>
                                 <td> $2800</td>
                                 <td>
-                                    <span class="badge badge-boxed badge-soft-warning">Pending</span>
+                                    <span class="badge badge-boxed badge-soft-warning">Receive</span>
                                 </td>
                             </tr><!--end tr-->
                             <tr>
@@ -419,7 +419,7 @@
                                 <td>100</td>
                                 <td> $520</td>
                                 <td>
-                                    <span class="badge badge-boxed  badge-soft-success">Shipped</span>
+                                    <span class="badge badge-boxed  badge-soft-success">Sent</span>
                                 </td>
                             </tr><!--end tr-->
                             <tr>
@@ -435,7 +435,7 @@
                                 <td>100</td>
                                 <td> $1150</td>
                                 <td>
-                                    <span class="badge badge-boxed badge-soft-warning">Pending</span>
+                                    <span class="badge badge-boxed badge-soft-warning">Receive</span>
                                 </td>
                             </tr><!--end tr-->
                             <tr>
@@ -451,7 +451,7 @@
                                 <td>140</td>
                                 <td> $ 650</td>
                                 <td>
-                                    <span class="badge badge-boxed  badge-soft-success">Shipped</span>
+                                    <span class="badge badge-boxed  badge-soft-success">Sent</span>
                                 </td>
                             </tr><!--end tr-->
                             </tbody>

@@ -1,4 +1,4 @@
-@extends('frontend.layouts.app')
+@extends('bok.layouts.app')
 
 @section('content')
     <div class="row mb-4">

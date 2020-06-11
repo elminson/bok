@@ -25,15 +25,7 @@
             <div class="col-sm-12">
                 <div class="page-title-box">
                     <div class="float-right align-item-center mt-2">
-                        <button class="btn btn-info px-4 align-self-center report-btn">Creat Report</button>
-                    </div>
-                    <h4 class="page-title mb-2"><i class="mdi mdi-monitor mr-2"></i>Dashboard</h4>
-                    <div class="">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0);">Frogetor</a></li>
-                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Dashboard 1</li>
-                        </ol>
+                        <a href="transfer" class="btn btn-info px-4 align-self-center report-btn">Make a Transfer</a>
                     </div>
                 </div>
             </div>
