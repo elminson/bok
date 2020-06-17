@@ -83,5 +83,17 @@ class AppServiceProvider extends ServiceProvider
         Blade::if('langrtl', function ($session_identifier = 'lang-rtl') {
             return session()->has($session_identifier);
         });
+
+		Blade::directive('money', function ($amount) {
+			return "<?php
+            if($amount < 0) {
+                $amount *= -1;
+                echo '-$' . number_format($amount, 2);
+            } else {
+                echo '$' . number_format($amount, 2);
+            }
+        ?>";
+		});
+
     }
 }

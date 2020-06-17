@@ -41,6 +41,7 @@
         <!-- Page Content-->
             <div class="page-content">
                 <div class="container-fluid">
+                    @include('includes.partials.messages')
                     @yield('content')
 
                 </div><!-- container -->

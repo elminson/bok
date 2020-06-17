@@ -11,6 +11,9 @@ use App\Http\Controllers\Frontend\Auth\RegisterController;
 use App\Http\Controllers\Frontend\Auth\ResetPasswordController;
 use App\Http\Controllers\Frontend\Auth\SocialLoginController;
 use App\Http\Controllers\Frontend\Auth\UpdatePasswordController;
+use App\Http\Controllers\Frontend\Auth\MykidController;
+use App\Http\Controllers\Frontend\Auth\TransactionController;
+use App\Http\Controllers\Frontend\Auth\ActivityController;
 
 /*
  * Frontend Access Controllers
@@ -39,6 +42,20 @@ Route::group(['namespace' => 'Auth', 'as' => 'auth.'], function () {
 
 		// Account Routes
 		Route::get('accounts', [AccountController::class, 'index'])->name('accounts');
+
+		// Mykids  Routes
+		Route::get('mykids', [MykidController::class, 'index'])->name('mykids');
+		Route::get('mykids/add', [MykidController::class, 'add'])->name('mykids.add');
+		Route::post('mykids/add', [MykidController::class, 'add'])->name('mykids.add');
+
+		// Transfer  Routes
+		Route::get('transfer', [TransactionController::class, 'transfer'])->name('transfer');
+		Route::post('transfer/add', [TransactionController::class, 'add'])->name('transfer.add');
+
+		// Activities  Routes
+		Route::get('activities', [ActivityController::class, 'index'])->name('activities');
+
+
 
 	});
 

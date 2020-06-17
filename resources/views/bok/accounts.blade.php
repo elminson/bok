@@ -503,52 +503,110 @@
                     <div class="card-body border-bottom">
                         <div class="fro_profile">
                             <div class="row">
+
                                 <div class="col-lg-4 mb-3 mb-lg-0">
-                                    <div class="fro_profile-main">
-                                        <div class="fro_profile-main-pic">
-                                            <img src="assets/images/users/user-4.jpg" alt="" class="rounded-circle">
-                                            <span class="fro-profile_main-pic-change">
-                                                                <i class="fas fa-camera"></i>
-                                                            </span>
-                                        </div>
-                                        <div class="fro_profile_user-detail">
-                                            <h5 class="fro_user-name">Rosa Dodson</h5>
-                                            <p class="mb-0 fro_user-name-post">UI/UX Designer</p>
-                                        </div>
-                                    </div>
+                                    <ul class="nav nav-pills file-category mb-0" id="pills-tab" role="tablist">
+                                        <li class="nav-item file-category-block">
+                                            <a class="nav-link file-category-folder bg-soft-primary" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                                                <i class="mdi mdi-cash-multiple"></i>
+                                            </a>
+                                            <p class="mb-0 mt-1">Open Account</p>
+                                        </li>
+                                        <li class="nav-item file-category-block">
+                                            <a class="nav-link file-category-folder bg-soft-pink active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                <i class="mdi mdi-bell"></i>
+                                            </a>
+                                            <p class="mb-0 mt-1">Alerts</p>
+                                        </li>
+                                        <li class="nav-item file-category-block">
+                                            <a class="nav-link file-category-folder bg-soft-success" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                <i class="mdi mdi-checkbook"></i>
+                                            </a>
+                                            <p class="mb-0 mt-1">Bill Pay</p>
+                                        </li>
+                                        <li class="nav-item file-category-block">
+                                            <a class="nav-link file-category-folder bg-soft-warning" id="pills-home-tab-1" data-toggle="pill" href="#pills-home-1" role="tab" aria-controls="pills-home" aria-selected="true">
+                                                <i class="mdi mdi-account-arrow-right"></i>
+                                            </a>
+                                            <p class="mb-0 mt-1">Transfers</p>
+                                        </li>
+                                        <li class="nav-item file-category-block">
+                                            <a class="nav-link file-category-folder bg-soft-info" id="pills-contact-tab-1" data-toggle="pill" href="#pills-contact-1" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                <i class="mdi dripicons-tags"></i>
+                                            </a>
+                                            <p class="mb-0 mt-1">Special Offers</p>
+                                        </li>
+                                        <li class="nav-item file-category-block">
+                                            <a class="nav-link file-category-folder bg-soft-purple" id="pills-profile-tab-2" data-toggle="pill" href="#pills-profile-2" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                <i class="mdi mdi-email-mark-as-unread"></i>
+                                            </a>
+                                            <p class="mb-0 mt-1">Messages</p>
+                                        </li>
+
+
+                                    </ul>
+
                                 </div><!--end col-->
 
                                 <div class="col-lg-4 mb-3 mb-lg-0">
                                     <div class="header-title">Sales Report</div>
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-12">
                                             <div class="seling-report">
-                                                <h3 class="seling-data mb-1">81.88%</h3>
-                                                <ul class="list-inline mb-0">
-                                                    <li class="mb-2 list-inline-item text-muted font-13"><i class="mdi mdi-label text-success mr-2"></i>Computers</li>
-                                                    <li class="mb-2 list-inline-item text-muted font-13"><i class="mdi mdi-label text-danger mr-2"></i>IPhones</li>
-                                                    <li class="mb-2 list-inline-item text-muted font-13"><i class="mdi mdi-label text-warning mr-2"></i>Tablates</li>
-                                                </ul>
-                                                <h5 class="seling-data-detail">Total delivered</h5>
+                                                <button type="button" class="btn btn-lg btn-block btn-success btn-square btn-skew waves-effect waves-light">
+                                                    <span>
+                                                        <i class="mdi mdi-check-all mr-2"></i>
+                                                        Lock/unlock your ATM/debit card
+                                                    </span>
+                                                </button>
+                                                <button type="button" class="btn btn-lg btn-block btn-success btn-square btn-skew waves-effect waves-light">
+                                                    <span>
+                                                        <i class="mdi mdi-check-all mr-2"></i>
+                                                        Set daily purchase and ATM withdrawal limits
+                                                    </span>
+                                                </button>
+                                                <button type="button" class="btn btn-lg btn-block btn-success btn-square btn-skew waves-effect waves-light">
+                                                    <span>
+                                                        <i class="mdi mdi-check-all mr-2"></i>
+                                                        Set Travel Notice
+                                                    </span>
+                                                </button>
+                                                <button type="button" class="btn btn-lg btn-block btn-success btn-square btn-skew waves-effect waves-light">
+                                                    <span>
+                                                        <i class="mdi mdi-check-all mr-2"></i>
+                                                        Report a lost or stolen card
+                                                    </span>
+                                                </button>
                                             </div>
                                         </div>
-                                        <div class="col-5 align-item-center"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                                            <canvas id="pro-doughnut" height="174" width="292" class="chartjs-render-monitor" style="display: block; height: 87px; width: 146px;"></canvas>
-                                        </div>
+
                                     </div>
                                 </div><!--end col-->
                                 <div class="col-lg-4 mb-2 mb-lg-0">
-                                    <div class="header-title">Revenue Report</div>
+                                    <div class="header-title">Total Current Balance</div>
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="seling-report">
-                                                <h3 class="seling-data mb-1">$2353</h3>
-                                                <p class="text-muted">Today's Revenue</p>
-                                                <h5 class="seling-data-detail">Total Payment Clear</h5>
+                                                <h3 class="seling-data mb-1">@money($totalBalance)</h3>
                                             </div>
                                         </div>
                                         <div class="col-6">
-                                            <span class="peity-bar" data-peity="{ &quot;fill&quot;: [&quot;#44a2d2&quot;, &quot;#e6edf3&quot;]}" data-width="100%" data-height="100" style="display: none;">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8</span><svg class="peity" height="100" width="100%"><rect data-value="6" fill="#44a2d2" x="1.1145500000000002" y="33.33333333333334" width="8.916400000000001" height="66.66666666666666"></rect><rect data-value="2" fill="#e6edf3" x="12.260050000000001" y="77.77777777777777" width="8.916399999999998" height="22.22222222222223"></rect><rect data-value="8" fill="#44a2d2" x="23.40555" y="11.111111111111114" width="8.9164" height="88.88888888888889"></rect><rect data-value="4" fill="#e6edf3" x="34.551050000000004" y="55.55555555555556" width="8.916399999999996" height="44.44444444444444"></rect><rect data-value="3" fill="#44a2d2" x="45.696549999999995" y="66.66666666666667" width="8.91640000000001" height="33.33333333333333"></rect><rect data-value="8" fill="#e6edf3" x="56.84205" y="11.111111111111114" width="8.91640000000001" height="88.88888888888889"></rect><rect data-value="1" fill="#44a2d2" x="67.98755" y="88.88888888888889" width="8.91640000000001" height="11.111111111111114"></rect><rect data-value="3" fill="#e6edf3" x="79.13305" y="66.66666666666667" width="8.91640000000001" height="33.33333333333333"></rect><rect data-value="6" fill="#44a2d2" x="90.27855" y="33.33333333333334" width="8.91640000000001" height="66.66666666666666"></rect><rect data-value="5" fill="#e6edf3" x="101.42405" y="44.44444444444444" width="8.91640000000001" height="55.55555555555556"></rect><rect data-value="9" fill="#44a2d2" x="112.56954999999999" y="0" width="8.91640000000001" height="100"></rect><rect data-value="2" fill="#e6edf3" x="123.71505" y="77.77777777777777" width="8.916399999999996" height="22.22222222222223"></rect><rect data-value="8" fill="#44a2d2" x="134.86055" y="11.111111111111114" width="8.91640000000001" height="88.88888888888889"></rect><rect data-value="1" fill="#e6edf3" x="146.00605" y="88.88888888888889" width="8.91640000000001" height="11.111111111111114"></rect><rect data-value="4" fill="#44a2d2" x="157.15155" y="55.55555555555556" width="8.91640000000001" height="44.44444444444444"></rect><rect data-value="8" fill="#e6edf3" x="168.29705" y="11.111111111111114" width="8.916399999999982" height="88.88888888888889"></rect></svg>
+                                            <span class="peity-bar" data-peity="{ &quot;fill&quot;: [&quot;#44a2d2&quot;, &quot;#e6edf3&quot;]}" data-width="100%" data-height="100" style="display: none;">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8</span>
+                                            <svg class="peity" height="100" width="100%">
+                                                <rect data-value="6" fill="#44a2d2" x="1.1145500000000002" y="33.33333333333334" width="8.916400000000001" height="66.66666666666666"></rect>
+                                                <rect data-value="2" fill="#e6edf3" x="12.260050000000001" y="77.77777777777777" width="8.916399999999998" height="22.22222222222223"></rect>
+                                                <rect data-value="8" fill="#44a2d2" x="23.40555" y="11.111111111111114" width="8.9164" height="88.88888888888889"></rect>
+                                                <rect data-value="4" fill="#e6edf3" x="34.551050000000004" y="55.55555555555556" width="8.916399999999996" height="44.44444444444444"></rect>
+                                                <rect data-value="3" fill="#44a2d2" x="45.696549999999995" y="66.66666666666667" width="8.91640000000001" height="33.33333333333333"></rect>
+                                                <rect data-value="8" fill="#e6edf3" x="56.84205" y="11.111111111111114" width="8.91640000000001" height="88.88888888888889"></rect>
+                                                <rect data-value="1" fill="#44a2d2" x="67.98755" y="88.88888888888889" width="8.91640000000001" height="11.111111111111114"></rect>
+                                                <rect data-value="3" fill="#e6edf3" x="79.13305" y="66.66666666666667" width="8.91640000000001" height="33.33333333333333"></rect>
+                                                <rect data-value="6" fill="#44a2d2" x="90.27855" y="33.33333333333334" width="8.91640000000001" height="66.66666666666666"></rect>
+                                                <rect data-value="5" fill="#e6edf3" x="101.42405" y="44.44444444444444" width="8.91640000000001" height="55.55555555555556"></rect>
+                                                <rect data-value="9" fill="#44a2d2" x="112.56954999999999" y="0" width="8.91640000000001" height="100"></rect>
+                                                <rect data-value="2" fill="#e6edf3" x="123.71505" y="77.77777777777777" width="8.916399999999996" height="22.22222222222223"></rect>
+                                            </svg>
+                                            <p class="text-muted">Balance past 12 months</p>
                                         </div>
                                     </div>
                                 </div><!--end col-->
@@ -564,30 +622,51 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mt-0 header-title">Personal Information</h4>
-                        <h6>About :</h6>
-                        <p class="text-muted font-13">Hi I'm Mark Kearney,has
-                            been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type.
-                        </p>
-                        <hr>
-                        <div class="button-list btn-social-icon">
-                            <button type="button" class="btn btn-facebook btn-round">
-                                <i class="fab fa-facebook-f"></i>
-                            </button>
+                        <div class="account-features">
 
-                            <button type="button" class="btn btn-twitter btn-round ml-2">
-                                <i class="fab fa-twitter"></i>
-                            </button>
+                            <h2>Account features</h2>
 
-                            <button type="button" class="btn btn-info btn-round  ml-2">
-                                <i class="fab fa-linkedin"></i>
-                            </button>
+                            <div class="features-group">
+                                <div class="details-row-blank">
+                                    <div class="row-label-blank">Paperless statements:  <button type="button" class="btn btn-soft-primary waves-effect waves-light">View statements<span class="ada-hidden">&nbsp;for accounts</span></button></div>
+                                    <div class="row-value-blank">
 
-                            <button type="button" class="btn btn-pink btn-round  ml-2">
-                                <i class="fab fa-dribbble"></i>
-                            </button>
+                                    </div>
+                                    <div class="clear-both"></div>
+                                </div>
+                            </div>
+                            <div class="features-group">
+                                <div class="details-row-blank">
+                                    <div class="row-label-blank">Alerts:</div>
+                                    <div class="row-value-blank">
+                                        <button type="button" class="btn btn-soft-primary waves-effect waves-light">Edit alerts settings</button>
+                                    </div>
+                                    <div class="clear-both"></div>
+                                </div>
+                            </div>
+                            <div class="features-group">
+                                <div class="details-row-blank">
+                                    <div class="row-label-blank">PayPal:</div>
+                                    <div class="row-value-blank">
+                                        <button type="button" class="btn btn-soft-primary waves-effect waves-light">Learn more&nbsp; about PayPal</button>
+                                    </div>
+                                    <div class="clear-both"></div>
+                                </div>
+                            </div>
+                            <div class="features-group">
+
+                                <div class="details-row-blank">
+                                    <div class="row-label-blank">Digital Wallets &amp; Virtual Cards:</div>
+                                    <div class="row-value-blank">
+                                        <button type="button" class="btn btn-soft-primary waves-effect waves-light">Edit settings</button>
+                                    </div>
+                                    <div class="clear-both"></div>
+                                </div>
+                            </div>
+                            <div class="features-group-last"></div>
                         </div>
+                       <hr />
+
                     </div><!--end card-body-->
                 </div><!--end card-->
 
@@ -604,27 +683,32 @@
                                     <div id="d2_overview" class="apex-charts" style="min-height: 364px;">
 
                                 <div class="row">
+                                    @foreach($accounts as $account)
                                     <div class="col-lg-6">
+
                                         <div class="card shadow-none  overflow-hidden">
+
                                             <div class="card-body bg-gradient2">
                                                 <div class="">
                                                     <div class="card-icon">
                                                         <i class="fas fa-coins"></i>
                                                     </div>
-                                                    <h2 class="font-weight-bold text-white">$85750.00</h2>
-                                                    <p class="text-white mb-0 font-16">Total payments</p>
+                                                    <h2 class="font-weight-bold text-white">@money($account->balance)</h2>
                                                 </div>
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <h4 class="mt-0 header-title mb-3">Contact</h4>
+                                                        <h4 class="mt-0 header-title mb-3">Account Info</h4>
                                                         <ul class="list-unstyled mb-0">
-                                                            <li class=""><i class="mdi mdi-phone mr-2 text-success font-18"></i> <b> phone </b> : +91 23456 78910</li>
-                                                            <li class="mt-2"><i class="mdi mdi-email-outline text-success font-18 mt-2 mr-2"></i> <b> Email </b> : mannat.theme@gmail.com</li>
-                                                            <li class="mt-2"><i class="mdi mdi-map-marker text-success font-18 mt-2 mr-2"></i> <b>Location</b> : USA</li>
+                                                            <li class=""><i class="mdi mdi-calendar mr-2 text-success font-18"></i> <b> Type: </b> {{ ucfirst($account->account_type) }} </li>
+                                                            <li class=""><i class="mdi mdi-briefcase-download-outline mr-2 text-success font-18"></i> <b> Account number: </b> {{ $account->number}} </li>
+                                                            <li class=""><i class="mdi mdi-routes mr-2 text-success font-18"></i> <b> Routing number: </b> {{ $account->route_number }} </li>
+                                                            <li class=""><i class="mdi dripicons-location mr-2 text-success font-18"></i> <b> Tracking number: </b> {{ $account->tracking_number }} </li>
+                                                            <li class=""><i class="mdi mdi-calendar mr-2 text-success font-18"></i> <b> Account Opened Date:</b> {{ date('d-M-y', strtotime($account->created_at)) }} </li>
                                                         </ul>
                                                     </div><!--end card-body-->
                                                 </div>
                                             </div>
+
                                             <div class="card-body">
                                                 <div class="" style="position: relative;">
 
@@ -635,31 +719,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="card shadow-none overflow-hidden">
-                                            <div class="card-body bg-gradient1">
-                                                <div class="">
-                                                    <div class="card-icon">
-                                                        <i class="far fa-user"></i>
-                                                    </div>
-                                                    <h2 class="font-weight-bold text-white">10</h2>
-                                                    <p class="text-white mb-0 font-16">Top 10 Best Saler This Month</p>
-                                                </div>
 
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h4 class="mt-0 header-title mb-3">Contact</h4>
-                                                    <ul class="list-unstyled mb-0">
-                                                        <li class=""><i class="mdi mdi-phone mr-2 text-success font-18"></i> <b> phone </b> : +91 23456 78910</li>
-                                                        <li class="mt-2"><i class="mdi mdi-email-outline text-success font-18 mt-2 mr-2"></i> <b> Email </b> : mannat.theme@gmail.com</li>
-                                                        <li class="mt-2"><i class="mdi mdi-map-marker text-success font-18 mt-2 mr-2"></i> <b>Location</b> : USA</li>
-                                                    </ul>
-                                                </div><!--end card-body-->
-                                            </div>
-                                            </div><!--end card-body-->
-                                        </div><!--end card-->
                                     </div><!--end col-->
+                                    @endforeach
+
                                 </div><!--end row-->
                             </div><!--end tab-pane-->
 

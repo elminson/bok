@@ -5,7 +5,7 @@
     <div class="topbar-left">
         <a href="/dashboard" class="logo">
                         <span>
-                            <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                            <img src="{{ url('assets/images/logo-sm.png') }}" alt="logo-small" class="logo-sm">
                             <?=app_name()?>
                         </span>
         </a>

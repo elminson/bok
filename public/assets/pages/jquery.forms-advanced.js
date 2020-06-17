@@ -208,7 +208,7 @@
       maxYear: parseInt(moment().format('YYYY'),10)
     }, function(start, end, label) {
       var years = moment().diff(start, 'years');
-      alert("You are " + years + " years old!");
+      alert("You kid is  " + years + " years old!");
     });
   
     var start = moment().subtract(29, 'days');

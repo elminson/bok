@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Activity extends Model
+class Mykid extends Model
 {
 
 	/**
@@ -13,13 +13,15 @@ class Activity extends Model
 	 * @var array
 	 */
 	protected $fillable = [
+		'name',
+		'dob',
+		'number',
+		'balance',
+		'active',
 		'holder_id',
-		'from_account_number',
-		'to_account_number',
-		'description',
-		'transaction_amount',
-		'transaction_type',
-		'available_balance',
+		'parent_user_id',
+		'created_at',
+		'updated_at',
 	];
 
 }

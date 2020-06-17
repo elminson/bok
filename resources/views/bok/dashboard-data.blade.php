@@ -12,7 +12,7 @@
                         <div class="card-icon">
                             <i class="far fa-user"></i>
                         </div>
-                        <h2 class="font-weight-bold text-white">10</h2>
+                        <h2 class="font-weight-bold text-white">{{ $number_deposits }}</h2>
                         <p class="text-white mb-0 font-16">Top 10 deposits This Month</p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                         <div class="card-icon">
                             <i class="far fa-smile"></i>
                         </div>
-                        <h2 class="font-weight-bold text-white">810</h2>
+                        <h2 class="font-weight-bold text-white">{{ $fico }}</h2>
                         <p class="text-white mb-0 font-16">FICO Score</p>
                     </div>
                 </div><!--end card-body-->
@@ -170,7 +170,7 @@
                         <div class="card-icon">
                             <i class="fas fa-coins"></i>
                         </div>
-                        <h2 class="font-weight-bold text-white">$85,750.00</h2>
+                        <h2 class="font-weight-bold text-white">@money($balance)</h2>
                         <p class="text-white mb-0 font-16">Total Balance</p>
                     </div>
                 </div><!--end card-body-->
@@ -263,63 +263,9 @@
                                     </div><!--end col-->
                                 </div><!--end row-->
                             </div><!--end carousel-item-->
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 align-self-center">
-                                        <div class="text-center">
-                                            <h4 class="mt-0 header-title text-left">New Orders</h4>
-                                            <div class="icon-info my-3">
-                                                <i class="dripicons-basket bg-soft-info"></i>
-                                            </div>
-                                            <h2 class="mt-0 font-weight-bold text-dark">1824</h2>
-                                            <p class="mb-1 text-muted"><span class="text-danger"><i class="mdi mdi-arrow-down"></i>1.5%</span> Down From Last week</p>
-                                        </div>
-                                    </div><!--end col-->
-                                </div><!--end row-->
-                            </div><!--end carousel-item-->
 
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 align-self-center">
-                                        <div class="text-center">
-                                            <h4 class="mt-0 header-title text-left">Order Returns</h4>
-                                            <div class="icon-info my-3">
-                                                <i class="dripicons-swap bg-soft-primary"></i>
-                                            </div>
-                                            <h2 class="mt-0 font-weight-bold text-dark">11.1%</h2>
-                                            <p class="mb-1 text-muted"><span class="text-success"><i class="mdi mdi-arrow-up"></i>11.1%</span> Up from Last Month</p>
-                                        </div>
-                                    </div><!--end col-->
-                                </div><!--end row-->
-                            </div><!--end carousel-item-->
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 align-self-center">
-                                        <div class="text-center">
-                                            <h4 class="mt-0 header-title text-left">Total Brands</h4>
-                                            <div class="icon-info my-3">
-                                                <i class="dripicons-store bg-soft-warning"></i>
-                                            </div>
-                                            <h2 class="mt-0 font-weight-bold text-dark">92</h2>
-                                            <p class="mb-1 text-muted">All International Brands</p>
-                                        </div>
-                                    </div><!--end col-->
-                                </div><!--end row-->
-                            </div><!--end carousel-item-->
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 align-self-center">
-                                        <div class="text-center">
-                                            <h4 class="mt-0 header-title text-left">Total Visits</h4>
-                                            <div class="icon-info my-3">
-                                                <i class="dripicons-user-group bg-soft-success"></i>
-                                            </div>
-                                            <h2 class="mt-0 font-weight-bold text-dark">35k</h2>
-                                            <p class="mb-1 text-muted"><span class="text-success"><i class="mdi mdi-arrow-up"></i>11.1%</span> Up from yesterday</p>
-                                        </div>
-                                    </div><!--end col-->
-                                </div><!--end row-->
-                            </div><!--end carousel-item-->
+
+
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

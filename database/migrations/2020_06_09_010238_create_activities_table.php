@@ -15,10 +15,12 @@ class CreateActivitiesTable extends Migration
     {
         Schema::create('activities', function (Blueprint $table) {
             $table->bigIncrements('id');
-			$table->bigInteger('account_number');
-			$table->string('description');
-			$table->float('transaction_amount', 10, 2);
-			$table->float('available_balance', 10, 2);
+			$table->bigInteger('holder_id');
+			$table->bigInteger('from_account_number');
+			$table->bigInteger('to_account_number');
+			$table->string('description')->nullable();
+			$table->float('transaction_amount', 10, 2)->nullable();
+			$table->float('available_balance', 10, 2)->nullable();
 			$table->string('transaction_type');
 			$table->string('status');
             $table->timestamps();
