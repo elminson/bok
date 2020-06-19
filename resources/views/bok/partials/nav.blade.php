@@ -66,7 +66,9 @@
         <li class="dropdown">
             <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
                aria-haspopup="false" aria-expanded="false">
+                <?php  if (!empty($logged_in_user->picture)) { ?>
                 <img src="{{ $logged_in_user->picture }}" alt="profile-user" class="rounded-circle"/>
+                    <?php } ?>
                 <span class="ml-1 nav-user-name hidden-sm"> <i class="mdi mdi-chevron-down"></i> </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
